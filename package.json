@@ -1,0 +1,27 @@
+{
+  "name": "mysql-easy-pool",
+  "version": "0.2.0",
+  "description": "MySql connections' pool wrapper to handle the connections, mainly with the transactions, more easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "HOST=127.0.0.1 USER=root PASS=<pass here> DB=POOL_TESTER mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rikmms/mysql-easy-pool.git"
+  },
+  "keywords": ["mysql", "db", "pool", "connection", "easy"],
+  "author": "rikmms <ricardo.sousa@challenge.pt>",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "async": "^2.0.0-rc.3",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": "~4.0.0"
+  }
+}
