@@ -11,7 +11,7 @@
     "url": "https://github.com/rikmms/mysql-easy-pool.git"
   },
   "keywords": ["mysql", "db", "pool", "connection", "easy"],
-  "author": "rikmms <ricardo.sousa@challenge.pt>",
+  "author": "rikmms <sousa.ricardo10@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "mysql": "^2.10.2"
