@@ -1,5 +1,7 @@
 ## mysql-easy-pool
 
+## ATTENTION: This module is deprecated and no longer under maintenance. Please check the new module [mysql-promise-extension](https://www.npmjs.com/package/mysql-promise-extension)
+
 This module exports an object to handle with the mysql connection's pool more easily. We can use the getConnection() function to get one connection for execute our queries, or we can use the getTransactionConnection() function to get one connection inside a transaction that performs the rollback action if any error occurred.
 
 The purpose of this module is to act like a helper for the great [mysql](https://www.npmjs.com/package/mysql) module.
