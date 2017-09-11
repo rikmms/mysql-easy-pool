@@ -1,6 +1,6 @@
 {
   "name": "mysql-easy-pool",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "MySql connections' pool wrapper to handle the connections, mainly with the transactions, more easily.",
   "main": "index.js",
   "scripts": {
